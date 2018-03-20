@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-/*import logo from './logo.svg';
 import './App.css';
-*/
+
 
 let defaultStyle = {
   color: 'white'
@@ -21,7 +20,7 @@ class Filter extends Component {
   render() {
     return (
       <div style={defaultStyle}>
-        <img />
+        <img src="" alt="" />
         <input type="text" />
       </div>
     );
@@ -32,7 +31,7 @@ class Playlist extends Component {
   render() {
     return (
       <div style={{...defaultStyle, width: '20%', display: 'inline-block'}}>
-        <img />
+        <img src="" alt="" />
         <h3>Playlist Name</h3>
         <ul>
         <li>Song 1</li>
